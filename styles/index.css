@@ -13,13 +13,18 @@ justify-content: center;
     background-color: #03071E;
     margin: 20px;
     border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .second{
     width: 273px;
     height: 220px;
-    background-color: #03071E;
+    background-color: red;
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .third{
@@ -27,13 +32,17 @@ justify-content: center;
     height: 220px;
     background-color: #03071E;
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .fourth{
     width: 273px;
     height: 220px;
-    background-color: #03071E;
+    background-color: red;
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .fifth{
@@ -41,10 +50,13 @@ justify-content: center;
     height: 220px;
     background-color: #03071E;
     margin: 20px;
+    display: flex;
+    flex-wrap: wrap
 }
 .circle {
     width: 50px;
     height: 50px;
     background-color: #bbb;
     border-radius: 50%;
+    margin: 20px;
 }
